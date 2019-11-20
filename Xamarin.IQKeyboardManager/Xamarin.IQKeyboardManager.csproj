@@ -7,11 +7,12 @@
     <ProjectGuid>{65E1A03B-0316-42BA-A8BA-91C9F6DC7CC3}</ProjectGuid>
     <TemplateGuid>{b6f3ff35-79b2-4f25-a2fc-60a7cf61013b}</TemplateGuid>
     <OutputType>Library</OutputType>
+	<TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
     <RootNamespace>Xamarin</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>IQKeyboardManager</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <ReleaseVersion>6.5.4.1</ReleaseVersion>    
+    <ReleaseVersion>6.5.4.2</ReleaseVersion>    
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

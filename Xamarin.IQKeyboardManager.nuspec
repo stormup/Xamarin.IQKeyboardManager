@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
-        <id>eduardo_rta.Xamarin.IQKeyboardManager</id>
+        <id>StormUp.Xamarin.IQKeyboardManager</id>
 
         <!-- The package version number that is used when resolving dependencies -->
-        <version>6.5.4.1</version>
+        <version>6.5.4.2</version>
 
         <!-- Authors contain text that appears directly on the gallery -->
-        <authors>Eduardo Appolinario</authors>
+        <authors>StormUp, Eduardo Appolinario</authors>
 
         <!-- 
             Owners are typically nuget.org identities that allow gallery
@@ -17,7 +17,7 @@
         <owners>eduardo_rta</owners>
         
          <!-- Project URL provides a link for the gallery -->
-        <projectUrl>https://github.com/eduardo-rta/Xamarin.IQKeyboardManager</projectUrl>
+        <projectUrl>https://github.com/stormup/Xamarin.IQKeyboardManager</projectUrl>
 
          <!-- License information is displayed on the gallery -->
         <license type="expression">MIT</license>
@@ -44,21 +44,21 @@
         <description>Xamarin.iOS Bindings for IQKeyboardManager Library</description>
 
         <!-- Copyright information -->
-        <copyright>Copyright ©2019 Eduardo Appolinario</copyright>
+        <copyright>Copyright ©2019 StormUp</copyright>
 
         <!-- Tags appear in the gallery and can be used for tag searches -->
         <tags>xamarin ios iqkeyboardmanager keyboardmanager</tags>
 		
-		<repository type="git" url="https://github.com/eduardo-rta/Xamarin.IQKeyboardManager" />
+		<repository type="git" url="https://github.com/stormup/Xamarin.IQKeyboardManager" />
 		
 		<dependencies>
-			<dependency id="Xamarin.iOS" />
+		    <group targetFramework="Xamarin.iOS10" />
 		</dependencies>
     </metadata>
 
     <!-- A readme.txt to display when the package is installed -->
     <files>
 		<file src="Images/XamarinIQKeyboardManagerLogo.png" />
-        <file src="Xamarin.IQKeyboardManager/bin/Release/IQKeyboardManager.dll" target="lib/Xamarin.iOS10.0" />
+        <file src="Xamarin.IQKeyboardManager/bin/Release/IQKeyboardManager.dll" target="lib/Xamarin.iOS10" />
     </files>
 </package>
