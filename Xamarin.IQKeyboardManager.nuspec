@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <!-- The identifier that must be unique within the hosting gallery -->
+        <id>eduardo_rta.Xamarin.IQKeyboardManager</id>
+
+        <!-- The package version number that is used when resolving dependencies -->
+        <version>6.5.4.1</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>Eduardo Appolinario</authors>
+
+        <!-- 
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  
+        -->
+        <owners>eduardo_rta</owners>
+        
+         <!-- Project URL provides a link for the gallery -->
+        <projectUrl>https://github.com/eduardo-rta/Xamarin.IQKeyboardManager</projectUrl>
+
+         <!-- License information is displayed on the gallery -->
+        <license type="expression">MIT</license>
+		
+		<summary>Xamarin.iOS Bindings for IQKeyboardManager Library</summary>
+        
+
+        <!-- The icon is used in Visual Studio's package manager UI -->
+        <icon>XamarinIQKeyboardManagerLogo.png</icon>
+
+        <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+        <!-- Any details about this particular release -->
+        <releaseNotes>Binding for IQKeyboardManager 6.5.4</releaseNotes>
+
+        <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+        <description>Xamarin.iOS Bindings for IQKeyboardManager Library</description>
+
+        <!-- Copyright information -->
+        <copyright>Copyright ©2019 Eduardo Appolinario</copyright>
+
+        <!-- Tags appear in the gallery and can be used for tag searches -->
+        <tags>xamarin ios iqkeyboardmanager keyboardmanager</tags>
+		
+		<repository type="git" url="https://github.com/eduardo-rta/Xamarin.IQKeyboardManager" />
+		
+		<dependencies>
+			<dependency id="Xamarin.iOS" />
+		</dependencies>
+    </metadata>
+
+    <!-- A readme.txt to display when the package is installed -->
+    <files>
+		<file src="Images/XamarinIQKeyboardManagerLogo.png" />
+        <file src="Xamarin.IQKeyboardManager/bin/Release/IQKeyboardManager.dll" target="lib/Xamarin.iOS10.0" />
+    </files>
+</package>
